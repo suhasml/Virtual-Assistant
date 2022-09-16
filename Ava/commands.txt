@@ -1,0 +1,19 @@
+List of commands so far:
+1. time
+2. date
+3. define
+4. opeining a website - done
+    b. searching images on google   - shld do
+    c. searching books on google    - shld do
+    d. searching news on google     - shld do
+    e. searching maps on google     - shld do   
+    g. searching translate on google - shld do
+    h. searching calculator on google - shld do
+    i. searching shopping on google - shld do
+5. jokes - done
+6. playing music - done
+        - pause, resume, stop, next, previous
+7. weather - done
+8. youtube - done
+
+Functions of alexa:

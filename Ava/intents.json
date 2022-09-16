@@ -1,0 +1,193 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "hi",
+                "hello",
+                "hey",
+                "wake up"
+            ],
+            "responses":[
+                "Hello",
+                "Hey there",
+                "Howdy",
+                "Hi",
+                "Hey"
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":[
+                "bye",
+                "goodbye",
+                "see you later",
+                "see you",
+                "thanks",
+                "thank you",
+                "exit",
+                "quit",
+                "close",
+                "end",
+                "no",
+                "nope"
+            ],
+            "responses":[
+                "thank you, looking forward to your next visit",
+                "thank you, hope to see you again",
+                "thank you, logging out",
+                "thank you, goodbye"
+            ]
+        },
+        {
+            "tag":"fine",
+            "patterns":[
+                "how are you","how is it going","how is life","how is it","how are you doing","how are you feeling"
+            ],
+            "responses":[
+                "Fine",
+                "I'm fine",
+                "I'm good",
+                "I'm great",
+                "I'm doing fine",
+                "I'm doing great",
+                "I'm doing well",
+                "I'm doing alright",
+                "Its fine",
+                "Its good",
+                "Its great",
+                "Its going fine"
+            ]
+        },
+        {
+            "tag":"indentify",
+            "patterns":[
+                "who are you",
+                "what are you",
+                "who am i talking to",
+                "what is your name"
+            ],
+            "responses":[
+                "I am ava, your personal assistant"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":[
+                "what time is it",
+                "what is the time",
+                "what is the time now",
+                "what is the time today"
+            ],
+            "responses":[
+                "time"
+            ]
+        },
+        {
+            "tag":"date",
+            "patterns":[
+                "what is the date",
+                "what is the date today",
+                "what is the date now",
+                "what is the date today"
+            ],
+            "responses":[
+                "date"
+            ]
+        },
+        {
+            "tag":"joke",
+            "patterns":[
+                "tell me a joke",
+                "tell me a joke today",
+                "tell me a joke now",
+                "tell me a joke"
+            ],
+            "responses":[
+                "joke"
+            ]
+        },
+        {
+            "tag":"search",
+            "patterns":[
+                "what is",
+                "search",
+                "search for",
+                "define",
+                "about",
+                "tell me about",
+                "google"
+            ],
+            "responses":[
+                "search"
+            ]
+        },
+        {
+            "tag":"website",
+            "patterns":[
+                "open website",
+                "search for something on the web",
+                "search on the web",
+                "search on the internet",
+                "search on the internet for",
+                "search on the internet for something",
+                "search on the internet for something on the web",
+                "browse the web",
+                "browse the internet",
+                "browse the internet for",
+                "browse the internet for something",
+                "open the internet",
+                "open browser",
+                "open google",
+                "open google search",
+                "youtube",
+                "open youtube",
+                "play youtube",
+                "play video on youtube"
+            ],
+            "responses":[
+                "website"
+            ]
+        },
+        {
+            "tag":"weather",
+            "patterns":[
+                "what is the weather",
+                "what is the weather like",
+                "what is the current weather",
+                "what is the current weather like",
+                "what is the weather like today",
+                "what is the weather like now",
+                "tell me the weather",
+                "tell me about the weather"
+            ],
+            "responses":[
+                "weather"
+            ]
+        },
+        {
+        "tag":"music",
+        "patterns":[
+            "play music",
+            "play a song",
+            "play a song on youtube",
+            "let me listen to music",
+            "let me listen to a song"
+        ],
+        "responses":[
+            "music"
+        ]
+        },
+        {
+            "tag":"alarm",
+            "patterns":[
+                "set an alarm",
+                "set an alarm for",
+                "alarm"
+            ],
+            "responses":[
+                "alarm"
+            ]
+        }
+    ]
+}
