@@ -3,9 +3,9 @@ import spotipy
 import webbrowser
 import Ava
   
-user_name = '313q77fmtlbbgqa7i6kqcxi5dxau'
-clientID = '44b5bec613d646af8e9cba7307fd8074'
-clientSecret = '32c5debc177644289032a8ed00b1636a'
+user_name = 'your_user_name'
+clientID = 'your_client_id'
+clientSecret = 'your_secret'
 redirect_uri = 'http://google.com/callback'
 oauth_object = spotipy.SpotifyOAuth(clientID, clientSecret, redirect_uri)
 token_dict = oauth_object.get_access_token()
